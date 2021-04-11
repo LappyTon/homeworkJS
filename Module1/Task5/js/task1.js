@@ -12,7 +12,7 @@ while (counter < 10) {
 let counter1 = 1;
 while (counter1 < 10) {
     console.log(counter1)
-    if (counter1 === 1 || counter1 === 3 || counter1 === 5 || counter1 === 7 || counter1 === 9) {
+    if (counter % 2) {
         console.log("Число непарне");
     } else { 
         console.log("Число парне");
