@@ -113,14 +113,14 @@ const Transaction = {
     getTransactionTotal(type) {
       let allMoneyType = 0;
       for (const item of this.transactions) {
-        if (item.type = DEPOSIT)
-      }
+        if (item.type = DEPOSIT) {
+        
     }
   };
 
 
-account.deposit(4000)
-account.deposit(100000)
+account.deposit(4000);
+account.deposit(100000);
 
 // Напиши сценарій керування особистим кабінетом інтернет-банку.
 // Є об'єкт account в якому необхідно реалізувати методи для роботи з балансом та історією транзакцій.

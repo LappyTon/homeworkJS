@@ -37,5 +37,6 @@ console.log(messages);
 
 const style = ["Джаз", "Блюз"];
 style.push("Рок-н-ролл");
+style[3] = "Класика";
 style.unshift("Реп", "Регі");
 console.log(style);
